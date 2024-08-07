@@ -13,10 +13,10 @@ const Welcome = () => {
             Welcome to <span>Smk.dev</span>
           </h1>
           <h2>
-            my name is<span>Salamalik Shaiyldaevich</span>
+            my name is <span>Salamalik Shaiyldaevich</span>
           </h2>
           <h3>
-            <span>I'm a</span> frontend developer
+            <span>I&#39;m a</span> frontend developer
           </h3>
           <button>my pride is OKU.KG</button>
         </div>
@@ -32,13 +32,11 @@ const Welcome = () => {
                 <CiLinkedin />
               </a>
             </li>
-
             <li>
               <a href="https://www.instagram.com/shaiyldaevich/">
                 <FaInstagramSquare />
               </a>
             </li>
-
             <li>
               <a href="https://t.me/Shaiyldaevich">
                 <FaTelegram />
