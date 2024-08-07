@@ -2,7 +2,7 @@
 
 import React, { useEffect, useState } from "react";
 import scss from "./Header.module.scss";
-import logoPh from "../../../assets/de2lg2r-ec9bf187-18cc-4e64-9f2f-1fd1c268de78.png";
+import logoPh from "../../../assets/smk (Stroke).svg";
 import { Link as ScrollLink } from "react-scroll";
 import Image from "next/image";
 import BurgerMenu from "./BurgerMenu";
@@ -44,7 +44,7 @@ const Header = () => {
         <div className={scss.scrool}>
           <div className={scss.content}>
             <div className={scss.logo}>
-              <Image src={logoPh} width={70} height={70} alt="logo" />
+              <Image src={logoPh} width={90} height={90} alt="logo" />
               <ScrollLink
                 activeClass="active"
                 to={"home"}
@@ -89,14 +89,14 @@ const Header = () => {
                   </ul>
                 </nav>
                 <div className={scss.resume}>
-                    <a
+                  <a
                     className={scss.button}
-                      target="_blank"
-                      rel="noopener noreferror"
-                      href="/Black Modern Graphic Designer Creative Resume.pdf"
-                    >Resume</a>
-                    
-                
+                    target="_blank"
+                    rel="noopener noreferror"
+                    href="/Black Modern Graphic Designer Creative Resume.pdf"
+                  >
+                    Resume
+                  </a>
                 </div>
               </>
             )}
