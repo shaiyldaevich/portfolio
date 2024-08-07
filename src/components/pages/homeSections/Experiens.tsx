@@ -6,8 +6,7 @@ import "aos/dist/aos.css";
 const Experience = () => {
   useEffect(() => {
     AOS.init({
-      duration: 1200, 
-      once: false, 
+      duration: 1000, // Вы можете настроить параметры здесь
     });
   }, []);
   return (
