@@ -16,7 +16,7 @@ const Welcome = () => {
             my name is <span>Salamalik Shaiyldaevich</span>
           </h2>
           <h3>
-            <span>I&#39;m a</span> frontend developer
+            <span>I am a</span> frontend developer
           </h3>
           <button>my pride is OKU.KG</button>
         </div>

@@ -44,7 +44,7 @@ const AboutMe = () => {
             </div>
             <h1>About Me</h1>
             <p>
-              Hello! I&#39;m a frontend developer with a passion for creating <br />
+              Hello! I am a frontend developer with a passion for creating <br />
               beautiful and functional web applications. I have experience
               working <br />
               with modern web technologies and enjoy learning new tools and{" "}

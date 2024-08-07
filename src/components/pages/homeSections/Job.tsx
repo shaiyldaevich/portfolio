@@ -9,7 +9,7 @@ const Job = () => {
     <section id="job" className={scss.Jobs}>
       <div className="container">
         <div className={scss.content}>
-          <h1>Some Things I&#39;ve Built</h1>
+          <h1>Some Things I have Built</h1>
           <div className={scss.jobs}>
             <div className={scss.job}>
               <Image src={jobs} alt="Experience 1" />
