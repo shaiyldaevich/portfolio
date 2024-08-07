@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&display=swap");
+
+$primary-color: #5229ba;
+$secondary-color: #460f7a;
+$background-color: rgba(26, 0, 52, 0.388);
+$text-color: #fff;
+$highlight-color: #9d4edd;
+$container-bg: rgba(0, 0, 0, 0.2);
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.Experience {
+  padding: 100px 0;
+  background: $background-color;
+  color: $text-color;
+  // text-align: center;
+  font-family: "Arial", sans-serif;
+
+  .content {
+    animation: fadeIn 2s ease-in-out;
+
+    h1 {
+      font-size: clamp(30px, 5vw, 60px);
+      margin-bottom: 20px;
+      color: $highlight-color;
+      font-family: "Kalnia Glaze", serif;
+      line-height: 1.6;
+      letter-spacing: 5px;
+      text-align: center;
+    }
+
+    .job,
+    .education,
+    .skills {
+      margin: 20px 0;
+      padding: 20px;
+      background: $container-bg;
+      border-radius: 10px;
+      animation: fadeIn 2.5s ease-in-out;
+    }
+
+    h2 {
+      font-size: clamp(20px, 4vw, 40px);
+      color: $primary-color;
+      margin-bottom: 10px;
+      animation: fadeIn 3s ease-in-out;
+    }
+
+    h3,
+    h4,
+    p,
+    ul {
+      font-size: clamp(15px, 2.5vw, 25px);
+      color: $secondary-color;
+      margin: 10px 0;
+      animation: fadeIn 3.5s ease-in-out;
+    }
+
+    .Responsibilities,
+    .Achievements {
+      font-size: clamp(18px, 3vw, 30px);
+      margin: 10px 0;
+      color: $highlight-color;
+      font-weight: bold;
+      animation: fadeIn 4s ease-in-out;
+    }
+
+    ul {
+      list-style-type: disc;
+      list-style-position: inside;
+      padding-left: 20px;
+      text-align: left;
+      animation: fadeIn 4.5s ease-in-out;
+
+      li {
+        margin-bottom: 10px;
+        list-style: none;
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    padding: 50px 20px;
+
+    .job,
+    .education,
+    .skills {
+      margin: 10px 0;
+      padding: 15px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    h1 {
+      font-size: clamp(20px, 8vw, 40px);
+    }
+
+    h2 {
+      font-size: clamp(18px, 6vw, 35px);
+    }
+
+    h3,
+    h4,
+    p,
+    ul {
+      font-size: clamp(12px, 4vw, 20px);
+    }
+
+    .Responsibilities,
+    .Achievements {
+      font-size: clamp(16px, 5vw, 25px);
+    }
+  }
+}

@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&display=swap");
+.Footer {
+  width: 100%;
+
+  .scrool {
+    .content {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding: 10px;
+      gap: 40px;
+
+      .nav {
+        ul {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 20px;
+
+          li {
+            font-family: "Kalnia Glaze", serif;
+            list-style: none;
+            font-size: 18px;
+          }
+        }
+      }
+      .myNet {
+        // position: fixed;
+        // left: 90%;
+        // bottom: 20%;
+        // z-index: 99;
+        ul {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        flex-wrap: wrap;
+          gap: 10px;
+          li {
+            list-style: none;
+            a {
+              font-size: 28px;
+              margin-right: 20px;
+              transition: 0.3s ease;
+              &:hover {
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
