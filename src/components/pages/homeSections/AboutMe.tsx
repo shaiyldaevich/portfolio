@@ -3,6 +3,7 @@ import React, { useEffect, useRef } from "react";
 import scss from "./AboutMe.module.scss";
 import logoPh from "../../../assets/de2lg2r-ec9bf187-18cc-4e64-9f2f-1fd1c268de78.png";
 import Image from "next/image";
+
 const AboutMe = () => {
   const sectionRef = useRef(null);
 
@@ -43,7 +44,7 @@ const AboutMe = () => {
             </div>
             <h1>About Me</h1>
             <p>
-              Hello! I'm a frontend developer with a passion for creating <br />
+              Hello! I&#39;m a frontend developer with a passion for creating <br />
               beautiful and functional web applications. I have experience
               working <br />
               with modern web technologies and enjoy learning new tools and{" "}
