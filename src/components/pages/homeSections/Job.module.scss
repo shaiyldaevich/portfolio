@@ -1,17 +1,19 @@
 .Jobs {
   background: rgba(26, 0, 52, 0.388);
-
   padding: 100px 0;
+
   .content {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     gap: 70px;
+
     h1 {
       font-size: clamp(20px, 6vw, 50px);
       color: white;
     }
+
     @media (max-width: 1050px) {
       flex-wrap: wrap;
     }
@@ -22,6 +24,7 @@
       justify-content: center;
       flex-direction: column;
       gap: 70px;
+
       .job {
         display: flex;
         align-items: center;
@@ -29,14 +32,17 @@
         gap: 40px;
         margin-bottom: 20px;
         position: relative;
+
         @media (max-width: 1050px) {
           flex-wrap: wrap;
         }
+
         h1 {
           font-size: clamp(20px, 6vw, 50px);
           color: white;
           font-family: "Kalnia Glaze", serif;
         }
+
         img {
           width: 600px;
           height: auto;
@@ -51,33 +57,46 @@
             z-index: 2;
           }
         }
+
+        @media (max-width: 1050px) {
+          img {
+            position: static; 
+          }
+        }
+
         @media (max-width: 600px) {
           img {
             width: 450px;
             &:hover {
               width: 500px;
               z-index: 2;
+              position: static; 
             }
           }
         }
+
         @media (max-width: 450px) {
           img {
             width: 300px;
             &:hover {
               width: 400px;
               z-index: 2;
+              position: static; 
             }
           }
         }
+
         @media (max-width: 300px) {
           img {
             width: 200px;
             &:hover {
               width: 300px;
               z-index: 2;
+              position: static; 
             }
           }
         }
+
         p {
           font-size: clamp(10px, 4vw, 18px);
           color: rgb(172, 35, 95);

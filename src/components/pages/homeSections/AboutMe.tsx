@@ -1,7 +1,7 @@
 "use client";
 import React, { useEffect, useRef } from "react";
 import scss from "./AboutMe.module.scss";
-import logoPh from "../../../assets/de2lg2r-ec9bf187-18cc-4e64-9f2f-1fd1c268de78.png";
+import logoPh from "../../../assets/454025030_1060688585764673_2436888556128735223_n.jpg";
 import Image from "next/image";
 
 const AboutMe = () => {
