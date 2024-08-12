@@ -36,6 +36,7 @@ const Job = () => {
               </div>
             </div>
             <div className={scss.job}>
+              <Image src={movie} alt="Experience 2" />
               <div className={scss.text}>
                 <h1>My №2</h1>
                 <p>
@@ -58,8 +59,6 @@ const Job = () => {
                 </p>
                 <a href="https://movie-mu-six.vercel.app/">movie</a>
               </div>
-
-              <Image src={movie} alt="Experience 2" />
             </div>
             <div className={scss.job}>
               <Image src={jobs} alt="Experience 3" />
