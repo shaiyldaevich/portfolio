@@ -1,7 +1,7 @@
 "use client";
 import React, { useEffect, useRef } from "react";
 import scss from "./AboutMe.module.scss";
-import logoPh from "../../../assets/454025030_1060688585764673_2436888556128735223_n.jpg";
+// import logoPh from "../../../assets/454025030_1060688585764673_2436888556128735223_n.jpg";
 import Image from "next/image";
 
 const AboutMe = () => {
@@ -40,7 +40,7 @@ const AboutMe = () => {
         <div className={scss.content}>
           <div className={scss.text}>
             <div className={scss.profileImage}>
-              <Image src={logoPh} alt="Profile" />
+              {/* <Image src={logoPh} alt="Profile" /> */}
             </div>
             <h1>About Me</h1>
             <p>

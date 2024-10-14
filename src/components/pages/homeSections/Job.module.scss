@@ -44,12 +44,13 @@
         }
 
         img {
-          width: 600px;
-          height: auto;
+          width: 500px;
+          height: 400px;
           box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
           filter: blur(30px);
           transition: 0.3s ease;
-
+          object-fit: cover;
+          border-radius: 10px;
           &:hover {
             filter: blur(0);
             width: 700px;
@@ -60,7 +61,7 @@
 
         @media (max-width: 1050px) {
           img {
-            position: static; 
+            position: static;
           }
         }
 
@@ -70,7 +71,7 @@
             &:hover {
               width: 500px;
               z-index: 2;
-              position: static; 
+              position: static;
             }
           }
         }
@@ -81,7 +82,7 @@
             &:hover {
               width: 400px;
               z-index: 2;
-              position: static; 
+              position: static;
             }
           }
         }
@@ -92,7 +93,7 @@
             &:hover {
               width: 300px;
               z-index: 2;
-              position: static; 
+              position: static;
             }
           }
         }
