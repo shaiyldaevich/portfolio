@@ -17,7 +17,7 @@ const Job = () => {
               <div className={scss.text}>
                 <h1>My №1 </h1>
                 <p>
-                  "This project is a demonstration of my capabilities in the{" "}
+                  This project is a demonstration of my capabilities in the{" "}
                   <br />
                   field of API integration, modeled after Spotify functionality.
                   <br />
@@ -29,7 +29,7 @@ const Job = () => {
                   <br />
                   my skills in interface development and my understanding of
                   <br />
-                  creating adaptive interactive web applications."{" "}
+                  creating adaptive interactive web applications.{" "}
                 </p>
                 <a href="https://smkfy-555.vercel.app/">movie</a>
               </div>
