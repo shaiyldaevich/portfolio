@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&display=swap");
 .Header {
   position: fixed;
   z-index: 999;
@@ -16,9 +15,13 @@
         justify-content: center;
         gap: 10px;
         h1 {
-          font-family: "Kalnia Glaze", cursive;
           font-size: clamp(30px, 4vw, 46px);
           color: white;
+          background: -webkit-linear-gradient(-70deg, #b509bd 0%, #7a06b4 100%);
+          -webkit-background-clip: text;
+          background-clip: text;
+          -webkit-text-fill-color: rgba(0, 0, 0, 0);
+          -webkit-box-decoration-break: clone;
         }
       }
       .nav {

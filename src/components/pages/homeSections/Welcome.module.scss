@@ -1,12 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&display=swap");
-
 $primary-color: #5229ba;
-$font-color: #460f7a;
+$font-color: #610f7a;
 $font-family: "Arial", sans-serif;
 
 .Welcome {
   padding: 100px 0;
-  height: 70vh;
+  height: 100vh;
   background: rgba(26, 0, 52, 0.388);
   display: flex;
   align-items: center;
@@ -17,11 +15,16 @@ $font-family: "Arial", sans-serif;
     flex-direction: column;
     align-items: start;
     justify-content: center;
+    gap: 50px;
     position: relative;
     h1 {
       font-size: clamp(30px, 6vw, 46px);
-      color: white;
-      font-family: "Kalnia Glaze", serif;
+      background: -webkit-linear-gradient(180deg, #09bd12 0%, #440358 100%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: rgba(0, 0, 0, 0);
+      -webkit-box-decoration-break: clone;
+
       text-transform: uppercase;
       animation: fade 3s ease-in-out;
     }
@@ -58,6 +61,19 @@ $font-family: "Arial", sans-serif;
       }
       to {
         width: 40%;
+      }
+    }
+    .technologies {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 30px;
+
+      .techIcon {
+        img {
+          width: 100%;
+        }
       }
     }
   }

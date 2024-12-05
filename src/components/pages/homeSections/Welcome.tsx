@@ -15,6 +15,7 @@ import git from "@/assets/techIcons/git-original.svg";
 import github from "@/assets/techIcons/github-original.svg";
 import typeScript from "@/assets/techIcons/typescript-original.svg";
 import javaScript from "@/assets/techIcons/javascript-original.svg";
+import Image from "next/image";
 
 const TechIcons = [
   {
@@ -78,6 +79,20 @@ const Welcome = () => {
             ideas into innovative web applications. Explore my recent projects
             and articles showcasing my skills in both Front-End development📍
           </p>
+          <div className={scss.technologies}>
+            {TechIcons.map((icon, index) => (
+              <div className={scss.techIcon}>
+                <Image
+                  key={index}
+                  src={icon.src}
+                  alt={icon.title}
+                  title={icon.title}
+                  width={60}
+                  height={60}
+                />
+              </div>
+            ))}
+          </div>
         </div>
         <div className={scss.myNet}>
           <ul>

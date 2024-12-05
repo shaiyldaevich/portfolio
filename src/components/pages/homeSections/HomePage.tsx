@@ -13,7 +13,7 @@ const HomePage = () => {
     const chaneSnowCount = () => {
       if (window.innerWidth < 760) {
         setSnowCount(30);
-      } else setSnowCount(140);
+      } else setSnowCount(30);
     };
     const handleResize = () => {
       chaneSnowCount();
