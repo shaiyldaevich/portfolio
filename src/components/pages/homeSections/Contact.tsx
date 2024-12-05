@@ -1,4 +1,4 @@
-import React, { FC, useCallback, useState } from "react";
+import React, { FC, useState } from "react";
 import axios from "axios";
 import { useForm } from "react-hook-form";
 import { ToastContainer, toast } from "react-toastify";
@@ -16,7 +16,7 @@ interface FormData {
   message: string;
 }
 
-const ContactPage: FC<FormData> = () => {
+const ContactPage: FC = () => {
   const [sendButton, setSendButton] = useState<boolean>(false);
 
   const {
@@ -78,12 +78,7 @@ const ContactPage: FC<FormData> = () => {
     });
   };
 
-  const { getRootProps, getInputProps } = useDropzone({
-    accept: {},
-  });
-
   return (
-    // <>
     <div
       id="contact"
       className={`${scss.text__z__index} ${scss.contact__page}`}
@@ -173,8 +168,6 @@ const ContactPage: FC<FormData> = () => {
       </div>
       <ToastContainer />
     </div>
-
-    // </>
   );
 };
 

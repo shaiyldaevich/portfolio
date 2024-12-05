@@ -2,9 +2,9 @@
 import React, { useEffect, useState } from "react";
 import Welcome from "./Welcome";
 import AboutMe from "./AboutMe";
-import Contact from "./Contact";
 import Job from "./Job";
 import Snowfall from "react-snowfall";
+import ContactPage from "./Contact";
 
 const HomePage = () => {
   const [snowCount, setSnowCount] = useState<number>(0);
@@ -39,7 +39,7 @@ const HomePage = () => {
       <Welcome />
       <AboutMe />
       <Job />
-      <Contact />
+      <ContactPage />
     </>
   );
 };

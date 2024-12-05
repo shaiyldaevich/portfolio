@@ -3,11 +3,11 @@ import React, { useEffect, useRef } from "react";
 import scss from "./AboutMe.module.scss";
 import Image from "next/image";
 
-
 const AboutMe = () => {
   const sectionRef = useRef(null);
 
   useEffect(() => {
+    const section = sectionRef.current; // Создаем переменную для использования в очистке
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
@@ -23,13 +23,14 @@ const AboutMe = () => {
       }
     );
 
-    if (sectionRef.current) {
-      observer.observe(sectionRef.current);
+    if (section) {
+      observer.observe(section);
     }
 
+    // Функция очистки
     return () => {
-      if (sectionRef.current) {
-        observer.unobserve(sectionRef.current);
+      if (section) {
+        observer.unobserve(section);
       }
     };
   }, []);
@@ -48,23 +49,9 @@ const AboutMe = () => {
               Hello! I am a frontend developer with a passion for creating
               beautiful and functional web applications. I have experience
               working with modern web technologies and enjoy learning new tools
-              andframeworks to enhance my skills.
+              and frameworks to enhance my skills.
             </p>
           </div>
-          {/* <div className={scss.skills}>
-            <div className={scss.Icons}>
-              {TechIcons.map((icon) => (
-                <div key={icon.title} className={scss.Icon}>
-                  <Image
-                    src={icon.src}
-                    alt={icon.title}
-                    width={50}
-                    height={50}
-                  />
-                </div>
-              ))}
-            </div>
-          </div> */}
         </div>
       </div>
     </section>
