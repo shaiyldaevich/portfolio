@@ -1,0 +1,77 @@
+$spotify-green: #1db954;
+$spotify-black: #fbfbfb;
+$white-color: #ffffff;
+$black-color: $spotify-black;
+$lightest-slate: #d9dadc;
+$navy-shadow: rgba(255, 255, 255, 0.7);
+$black: $spotify-black;
+$border-radius: 8px;
+$transition: 0.3s ease;
+.BurgerMenu {
+  position: absolute;
+  top: 80px;
+  right: 20px;
+  opacity: 0;
+  visibility: hidden;
+  transition: $transition;
+  padding: 15px;
+  background: rgba(107, 2, 107, 0.127);
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.3);
+  border-radius: $border-radius;
+
+  &.active {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 15px;
+    width: 200px;
+    height: 200px;
+    h1 {
+      font-size: 24px;
+      color: $white-color;
+      text-align: center;
+    }
+    .nav {
+      ul {
+        li {
+          list-style: none;
+          .link {
+            padding: 7px 14px;
+            display: block;
+            border-radius: $border-radius;
+            color: $black;
+            transition: $transition;
+
+            &:hover {
+              background-color: $lightest-slate;
+            }
+
+            &.active {
+              background-color: $black;
+              color: $white-color;
+            }
+          }
+        }
+      }
+    }
+    button {
+      background-color: #ae00ff;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+      transition: 0.3s ease;
+      border-radius: 10px;
+      &:hover {
+        background-color: #00d9a3;
+        padding: 11px 21px;
+      }
+    }
+  }
+}

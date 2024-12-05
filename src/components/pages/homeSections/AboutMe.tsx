@@ -1,8 +1,8 @@
 "use client";
 import React, { useEffect, useRef } from "react";
 import scss from "./AboutMe.module.scss";
-// import logoPh from "../../../assets/454025030_1060688585764673_2436888556128735223_n.jpg";
 import Image from "next/image";
+
 
 const AboutMe = () => {
   const sectionRef = useRef(null);
@@ -39,32 +39,32 @@ const AboutMe = () => {
       <div className="container">
         <div className={scss.content}>
           <div className={scss.text}>
-            <div className={scss.profileImage}>
-              {/* <Image src={logoPh} alt="Profile" /> */}
-            </div>
+            <div className={scss.profileImage}></div>
             <h1>About Me</h1>
+            <a href="https://2gis.kg/bishkek/search/bishkek%20kyrgyzstan?m=74.553797%2C42.873619%2F10.21">
+              Experienced Frontend Developer from Kyrgyzstan 📍
+            </a>
             <p>
-              Hello! I am a frontend developer with a passion for creating <br />
+              Hello! I am a frontend developer with a passion for creating
               beautiful and functional web applications. I have experience
-              working <br />
-              with modern web technologies and enjoy learning new tools and{" "}
-              <br />
-              frameworks to enhance my skills. <br />
+              working with modern web technologies and enjoy learning new tools
+              andframeworks to enhance my skills.
             </p>
           </div>
-          <div className={scss.skills}>
-            <h2>Skills</h2>
-            <ul>
-              <li>HTML & CSS</li>
-              <li>JavaScript (ES6+)</li>
-              <li>React</li>
-              <li>Redux</li>
-              <li>TypeScript</li>
-              <li>Sass/SCSS</li>
-              <li>Git & GitHub</li>
-              <li>Responsive Design</li>
-            </ul>
-          </div>
+          {/* <div className={scss.skills}>
+            <div className={scss.Icons}>
+              {TechIcons.map((icon) => (
+                <div key={icon.title} className={scss.Icon}>
+                  <Image
+                    src={icon.src}
+                    alt={icon.title}
+                    width={50}
+                    height={50}
+                  />
+                </div>
+              ))}
+            </div>
+          </div> */}
         </div>
       </div>
     </section>

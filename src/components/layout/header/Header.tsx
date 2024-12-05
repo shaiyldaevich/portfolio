@@ -2,23 +2,18 @@
 
 import React, { useEffect, useState } from "react";
 import scss from "./Header.module.scss";
-import logoPh from "../../../assets/smk (Stroke).svg";
 import { Link as ScrollLink } from "react-scroll";
 import Image from "next/image";
-import BurgerMenu from "./BurgerMenu";
-import { GiHamburgerMenu } from "react-icons/gi";
+import BurgerButton from "@/ui/burgerButton/BurgerButton";
+import BurgerMenu from "@/ui/burgerMenu/BurgerMenu";
 const scrollLinks = [
   {
     name: "About",
     link: "about",
   },
   {
-    name: "Experience",
-    link: "experience",
-  },
-  {
-    name: "Job",
-    link: "job",
+    name: "Projects",
+    link: "projects",
   },
   {
     name: "Contact",
@@ -44,7 +39,6 @@ const Header = () => {
         <div className={scss.scrool}>
           <div className={scss.content}>
             <div className={scss.logo}>
-              <Image src={logoPh} width={90} height={90} alt="logo" />
               <ScrollLink
                 activeClass="active"
                 to={"home"}
@@ -58,13 +52,8 @@ const Header = () => {
             </div>
             {isMobile ? (
               <>
-                <a
-                  className={scss.burger_button}
-                  onClick={() => setIsOpen(!isOpen)}
-                >
-                  <GiHamburgerMenu />
-                </a>
-                <BurgerMenu scrollLinks={scrollLinks} isOpen={isOpen} />
+                <BurgerMenu />
+                <BurgerButton />
               </>
             ) : (
               <>
@@ -81,7 +70,6 @@ const Header = () => {
                           offset={0}
                           duration={500}
                         >
-                          {" "}
                           {item.name}
                         </ScrollLink>
                       </li>

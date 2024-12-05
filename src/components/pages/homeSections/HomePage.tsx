@@ -3,7 +3,6 @@ import React, { useEffect, useState } from "react";
 import Welcome from "./Welcome";
 import AboutMe from "./AboutMe";
 import Contact from "./Contact";
-import Experiens from "./Experiens";
 import Job from "./Job";
 import Snowfall from "react-snowfall";
 
@@ -39,7 +38,6 @@ const HomePage = () => {
       />
       <Welcome />
       <AboutMe />
-      <Experiens />
       <Job />
       <Contact />
     </>

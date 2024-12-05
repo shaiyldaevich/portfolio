@@ -3,22 +3,81 @@ import scss from "./Welcome.module.scss";
 import { CiLinkedin } from "react-icons/ci";
 import { FaSquareGithub } from "react-icons/fa6";
 import { FaInstagramSquare, FaTelegram } from "react-icons/fa";
+import css from "@/assets/techIcons/css3-original.svg";
+import html from "@/assets/techIcons/html5-original.svg";
+import sass from "@/assets/techIcons/sass-original.svg";
+import react from "@/assets/techIcons/react-original.svg";
+import node from "@/assets/techIcons/nodejs-original-wordmark.svg";
+import vite from "@/assets/techIcons/vitejs-original.svg";
+import next from "@/assets/techIcons/nextjs-original.svg";
+import redux from "@/assets/techIcons/redux-original.svg";
+import git from "@/assets/techIcons/git-original.svg";
+import github from "@/assets/techIcons/github-original.svg";
+import typeScript from "@/assets/techIcons/typescript-original.svg";
+import javaScript from "@/assets/techIcons/javascript-original.svg";
 
+const TechIcons = [
+  {
+    src: css,
+    title: "CSS",
+  },
+  {
+    src: html,
+    title: "HTML",
+  },
+  {
+    src: sass,
+    title: "SASS",
+  },
+  {
+    src: react,
+    title: "React",
+  },
+  {
+    src: node,
+    title: "Node.js",
+  },
+  {
+    src: vite,
+    title: "Vite",
+  },
+  {
+    src: next,
+    title: "Next.js",
+  },
+  {
+    src: redux,
+    title: "Redux",
+  },
+  {
+    src: git,
+    title: "Git",
+  },
+  {
+    src: github,
+    title: "GitHub",
+  },
+  {
+    src: typeScript,
+    title: "TypeScript",
+  },
+  {
+    src: javaScript,
+    title: "JavaScript",
+  },
+];
 const Welcome = () => {
   return (
     <section id="home" className={scss.Welcome}>
       <div className="container">
         <div className={scss.content}>
-          <h1>
-            Welcome to <span>Smk.dev</span>
-          </h1>
-          <h2>
-            my name is <span>Salamalik Shaiyldaevich</span>
-          </h2>
-          <h3>
-            <span>I am a</span> frontend developer
-          </h3>
-          <button>my pride is OKU.KG</button>
+          <h1>Hi, I am Salamalik</h1>
+          <h3>Frontend Developer</h3>
+          <p>
+            As an experienced Frontend Developer , I am dedicated to turning
+            ideas into innovative web applications. Explore my recent projects
+            and articles showcasing my skills in both Front-End development📍
+          </p>
         </div>
         <div className={scss.myNet}>
           <ul>

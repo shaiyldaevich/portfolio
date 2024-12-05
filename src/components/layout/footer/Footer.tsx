@@ -12,10 +12,7 @@ const scrollLinks = [
     name: "About",
     link: "about",
   },
-  {
-    name: "Experience",
-    link: "experience",
-  },
+
   {
     name: "Job",
     link: "job",

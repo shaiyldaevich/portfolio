@@ -6,7 +6,7 @@
     .content {
       display: flex;
       align-items: center;
-      justify-content: center;
+      justify-content: space-between;
       flex-wrap: wrap;
       padding: 10px;
       gap: 40px;
@@ -26,15 +26,11 @@
         }
       }
       .myNet {
-        // position: fixed;
-        // left: 90%;
-        // bottom: 20%;
-        // z-index: 99;
         ul {
           display: flex;
           align-items: center;
           justify-content: center;
-        flex-wrap: wrap;
+          flex-wrap: wrap;
           gap: 10px;
           li {
             list-style: none;
