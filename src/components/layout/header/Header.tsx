@@ -81,7 +81,7 @@ const Header = () => {
                     className={scss.button}
                     target="_blank"
                     rel="noopener noreferror"
-                    href="/SalamalikShaiyldaevichResume (1).pdf"
+                    href="/Resume2.0.pdf"
                   >
                     Resume
                   </a>
