@@ -6,6 +6,7 @@ import { Link as ScrollLink } from "react-scroll";
 import Image from "next/image";
 import BurgerButton from "@/ui/burgerButton/BurgerButton";
 import BurgerMenu from "@/ui/burgerMenu/BurgerMenu";
+import logo from "@/assets/smk.svg";
 const scrollLinks = [
   {
     name: "About",
@@ -21,7 +22,6 @@ const scrollLinks = [
   },
 ];
 const Header = () => {
-  ////burgermenu function////
   const [isMobile, setIsMobile] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
   useEffect(() => {
@@ -47,7 +47,7 @@ const Header = () => {
                 offset={0}
                 duration={500}
               >
-                <h1>Smk.dev</h1>
+                <Image src={logo} alt="logo" width={100} height={50} />
               </ScrollLink>
             </div>
             {isMobile ? (

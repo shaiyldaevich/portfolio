@@ -5,8 +5,7 @@ import Movie from "@/assets/movie.png";
 import tg from "@/assets/tg bot.png";
 import Css from "@/assets/css animation.png";
 import todo from "@/assets/todo.png";
-import { FaGithub } from "react-icons/fa6";
-import { GoArrowUpRight } from "react-icons/go";
+import { FaGithub, FaSquareArrowUpRight } from "react-icons/fa6";
 
 const projects = [
   {
@@ -78,7 +77,7 @@ const Job = () => {
                       <FaGithub />
                     </a>
                     <a href={project.demo} target="_blank">
-                      <GoArrowUpRight />
+                    <FaSquareArrowUpRight />
                     </a>
                   </div>
                 </div>
