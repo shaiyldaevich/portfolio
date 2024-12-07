@@ -5,6 +5,7 @@ import Movie from "@/assets/movie.png";
 import tg from "@/assets/tg bot.png";
 import Css from "@/assets/css animation.png";
 import todo from "@/assets/todo.png";
+import spotify from "@/assets/spotify.png";
 import { FaGithub, FaSquareArrowUpRight } from "react-icons/fa6";
 
 const projects = [
@@ -40,9 +41,18 @@ const projects = [
     src: todo,
     description:
       "The ToDo List website is a web application for creating a task list. It was created using Node.js and React. The application allows you to add, delete, modify, and mark tasks as completed.",
-    tools: ["React", "TypeScript", "CSS", "LocalStorage"],
+    tools: ["React-Vite", "TypeScript", "SASS", "CRUD-API", "REST-API"],
     code: "https://github.com/shaiyldaevich/TodoApp",
     demo: "https://todo-app-example.vercel.app/",
+  },
+  {
+    name: "Spotify Clone",
+    src: spotify,
+    description:
+      "This project is a simple Spotify clone built using Next.js and React Hooks. Please note that this application is configured to work exclusively with my Spotify account and requires a Spotify Premium subscription for full functionality.",
+    tools: ["Next.js", "TypeScript", "SASS", "Spotify API", "Zustand"],
+    code: "https://github.com/shaiyldaevich/SMKFY_555",
+    demo: "https://smkfy-555.vercel.app/",
   },
 ];
 
@@ -77,7 +87,7 @@ const Job = () => {
                       <FaGithub />
                     </a>
                     <a href={project.demo} target="_blank">
-                    <FaSquareArrowUpRight />
+                      <FaSquareArrowUpRight />
                     </a>
                   </div>
                 </div>
