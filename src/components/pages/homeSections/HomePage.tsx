@@ -27,7 +27,7 @@ const HomePage = () => {
   });
   return (
     <>
-      <Snowfall
+      {/* <Snowfall
         color="white"
         style={{
           background: "#00",
@@ -35,7 +35,7 @@ const HomePage = () => {
           width: "100%",
         }}
         snowflakeCount={snowCount}
-      />
+      /> */}
       <Welcome />
       <AboutMe />
       <Job />

@@ -1,3 +1,9 @@
+.canvas {
+	position: fixed;
+	overflow: hidden;
+	width: 100vw;
+	height: 100vh;
+}
 .Layout {
   display: flex;
   flex-direction: column;
