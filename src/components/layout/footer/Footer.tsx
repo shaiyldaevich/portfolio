@@ -14,8 +14,8 @@ const scrollLinks = [
   },
 
   {
-    name: "Job",
-    link: "job",
+    name: "Projects",
+    link: "projects",
   },
   {
     name: "Contact",
@@ -40,7 +40,6 @@ const Footer = () => {
                       offset={0}
                       duration={500}
                     >
-                      {" "}
                       {item.name}
                     </ScrollLink>
                   </li>
