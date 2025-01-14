@@ -6,15 +6,11 @@ import { FaInstagramSquare, FaTelegram } from "react-icons/fa";
 import css from "@/assets/techIcons/css3-original.svg";
 import html from "@/assets/techIcons/html5-original.svg";
 import sass from "@/assets/techIcons/sass-original.svg";
-import react from "@/assets/techIcons/react-original.svg";
 import node from "@/assets/techIcons/nodejs-original-wordmark.svg";
 import vite from "@/assets/techIcons/vitejs-original.svg";
 import next from "@/assets/techIcons/nextjs-original.svg";
-import redux from "@/assets/techIcons/redux-original.svg";
 import git from "@/assets/techIcons/git-original.svg";
 import github from "@/assets/techIcons/github-original.svg";
-import typeScript from "@/assets/techIcons/typescript-original.svg";
-import javaScript from "@/assets/techIcons/javascript-original.svg";
 import Image from "next/image";
 
 const TechIcons = [
@@ -27,11 +23,19 @@ const TechIcons = [
     title: "HTML",
   },
   {
+    src: "https://techstack-generator.vercel.app/ts-icon.svg",
+    title: "TypeScript",
+  },
+  {
+    src: "https://techstack-generator.vercel.app/js-icon.svg",
+    title: "JavaScript",
+  },
+  {
     src: sass,
     title: "SASS",
   },
   {
-    src: react,
+    src: "https://techstack-generator.vercel.app/react-icon.svg",
     title: "React",
   },
   {
@@ -47,7 +51,7 @@ const TechIcons = [
     title: "Next.js",
   },
   {
-    src: redux,
+    src: "https://techstack-generator.vercel.app/redux-icon.svg",
     title: "Redux",
   },
   {
@@ -57,14 +61,6 @@ const TechIcons = [
   {
     src: github,
     title: "GitHub",
-  },
-  {
-    src: typeScript,
-    title: "TypeScript",
-  },
-  {
-    src: javaScript,
-    title: "JavaScript",
   },
 ];
 const Welcome = () => {
@@ -81,7 +77,7 @@ const Welcome = () => {
           </p>
           <div className={scss.technologies}>
             {TechIcons.map((icon, index) => (
-              <div className={scss.techIcon} key={index}>
+              <div className={scss.techIcon}>
                 <Image
                   key={index}
                   src={icon.src}
