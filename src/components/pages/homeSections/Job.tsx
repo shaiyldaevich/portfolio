@@ -63,7 +63,10 @@ const Job = () => {
         <div className={scss.content}>
           <div className={scss.projects}>
             {projects.map((project, index) => (
-              <div className={scss.project} key={index}>
+              <div className={`${scss.project} ${
+                index % 2 !== 0 ? scss.row__reverse : ''
+              }`}
+              key={index + 1}>
                 <div className={scss.left}>
                   <Image
                     src={project.src}
