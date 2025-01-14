@@ -77,7 +77,7 @@ const Welcome = () => {
           </p>
           <div className={scss.technologies}>
             {TechIcons.map((icon, index) => (
-              <div className={scss.techIcon}>
+              <div className={scss.techIcon} key={index}>
                 <Image
                   key={index}
                   src={icon.src}
