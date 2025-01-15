@@ -6,7 +6,7 @@ import tg from "@/assets/tg bot.png";
 import Css from "@/assets/css animation.png";
 import todo from "@/assets/todo.png";
 import spotify from "@/assets/spotify.png";
-import barber from "@/assets/bareber.png"
+import barber from "@/assets/bareber.png";
 import { FaGithub, FaSquareArrowUpRight } from "react-icons/fa6";
 
 const projects = [
@@ -25,15 +25,15 @@ const projects = [
     description:
       "This Telegram-Bot is designed to forward messages from the Frontend form directly to Telegram. The advantages of our backend lie in the fact that any developer can easily deploy it on any hosting service.",
     tools: ["Node.js", "Telegram API", "TypeScript"],
-    code: "https://github.com/shaiyldaevich/TelegramBot",
-    demo: "https://t.me/your_bot",
+    code: "https://github.com/shaiyldaevich/tgbott",
+    demo: "https://tgbott-theta.vercel.app/",
   },
   {
     name: "Barbershop ",
     src: barber,
     description:
       "The Barbershop website is the website of the Barbershop. On the website, you can find information about the barbershop, the services it provides, and also make an appointment.",
-    tools: ["Next.js", "Telegram API", "TypeScript","Sass", "Rest-Api"],
+    tools: ["Next.js", "Telegram API", "TypeScript", "Sass", "Rest-Api"],
     code: "https://github.com/shaiyldaevich/barbershop",
     demo: "https://barbershop-ten-smoky.vercel.app/",
   },
