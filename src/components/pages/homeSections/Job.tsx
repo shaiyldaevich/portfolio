@@ -52,8 +52,8 @@ const projects = [
     description:
       "The ToDo List website is a web application for creating a task list. It was created using Node.js and React. The application allows you to add, delete, modify, and mark tasks as completed.",
     tools: ["React-Vite", "TypeScript", "SASS", "CRUD-API", "REST-API"],
-    code: "https://github.com/shaiyldaevich/TodoApp",
-    demo: "https://todo-app-example.vercel.app/",
+    code: "https://github.com/shaiyldaevich/adminOku.kg",
+    demo: "https://admin-oku-kg.vercel.app/",
   },
   {
     name: "Spotify Clone",
