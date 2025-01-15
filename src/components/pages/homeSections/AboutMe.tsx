@@ -3,6 +3,7 @@ import React, { useEffect, useRef } from "react";
 import scss from "./AboutMe.module.scss";
 import Image from "next/image";
 import Profile from "@/assets/photo_2024-12-01_12-17-48.jpg";
+import WorkActivity from "../github/Github";
 const AboutMe = () => {
   const sectionRef = useRef(null);
 
@@ -54,6 +55,7 @@ const AboutMe = () => {
           <div className={scss.profileImage}>
             <Image src={Profile} alt="Profile" width={300} height={300} />
           </div>
+          <WorkActivity />
         </div>
       </div>
     </section>
