@@ -6,6 +6,7 @@ import tg from "@/assets/tg bot.png";
 import Css from "@/assets/css animation.png";
 import todo from "@/assets/todo.png";
 import spotify from "@/assets/spotify.png";
+import barber from "@/assets/bareber.png"
 import { FaGithub, FaSquareArrowUpRight } from "react-icons/fa6";
 
 const projects = [
@@ -26,6 +27,15 @@ const projects = [
     tools: ["Node.js", "Telegram API", "TypeScript"],
     code: "https://github.com/shaiyldaevich/TelegramBot",
     demo: "https://t.me/your_bot",
+  },
+  {
+    name: "Barbershop ",
+    src: barber,
+    description:
+      "The Barbershop website is the website of the Barbershop. On the website, you can find information about the barbershop, the services it provides, and also make an appointment.",
+    tools: ["Next.js", "Telegram API", "TypeScript","Sass", "Rest-Api"],
+    code: "https://github.com/shaiyldaevich/barbershop",
+    demo: "https://barbershop-ten-smoky.vercel.app/",
   },
   {
     name: "CSS Animations",
@@ -63,10 +73,12 @@ const Job = () => {
         <div className={scss.content}>
           <div className={scss.projects}>
             {projects.map((project, index) => (
-              <div className={`${scss.project} ${
-                index % 2 !== 0 ? scss.row__reverse : ''
-              }`}
-              key={index + 1}>
+              <div
+                className={`${scss.project} ${
+                  index % 2 !== 0 ? scss.row__reverse : ""
+                }`}
+                key={index + 1}
+              >
                 <div className={scss.left}>
                   <Image
                     src={project.src}
