@@ -43,8 +43,8 @@ const projects = [
     description:
       "A project demonstrating various CSS animations, including transitions, keyframes, and other effects.",
     tools: ["HTML", "CSS", "SASS"],
-    code: "https://github.com/shaiyldaevich/CSSAnimations",
-    demo: "https://css-animation-demo.vercel.app/",
+    code: "https://github.com/shaiyldaevich/FORFUN",
+    demo: "https://forfun-azure.vercel.app/",
   },
   {
     name: "The ToDo List ",
