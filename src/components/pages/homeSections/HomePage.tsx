@@ -3,8 +3,9 @@ import React, { useEffect, useState } from "react";
 import Welcome from "./Welcome";
 import AboutMe from "./AboutMe";
 import Job from "./Job";
-import Snowfall from "react-snowfall";
+// import Snowfall from "react-snowfall";
 import ContactPage from "./Contact";
+import Experiens from "./Experiens";
 
 const HomePage = () => {
   const [snowCount, setSnowCount] = useState<number>(0);
@@ -38,6 +39,7 @@ const HomePage = () => {
       /> */}
       <Welcome />
       <AboutMe />
+      <Experiens/>
       <Job />
       <ContactPage />
     </>

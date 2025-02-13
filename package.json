@@ -9,8 +9,11 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@react-three/drei": "^9.121.4",
+    "@react-three/fiber": "^8.17.14",
     "aos": "^2.3.4",
     "axios": "^1.7.2",
+    "framer-motion": "^12.4.2",
     "next": "14.2.5",
     "react": "^18",
     "react-dom": "^18",
@@ -29,8 +32,10 @@
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "@types/react-scroll": "^1.8.10",
+    "@types/three": "^0.173.0",
     "eslint": "^8",
     "eslint-config-next": "14.2.5",
+    "fiber": "link:@types/three/fiber",
     "react-scroll": "^1.9.0",
     "typescript": "^5"
   }
