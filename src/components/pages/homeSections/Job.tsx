@@ -7,6 +7,7 @@ import Css from "@/assets/css animation.png";
 import todo from "@/assets/todo.png";
 import spotify from "@/assets/spotify.png";
 import barber from "@/assets/bareber.png";
+import okukg from "@/assets/okukg.png";
 import { FaGithub, FaSquareArrowUpRight } from "react-icons/fa6";
 
 const projects = [
@@ -27,6 +28,15 @@ const projects = [
     tools: ["Node.js", "Telegram API", "TypeScript"],
     code: "https://github.com/shaiyldaevich/tgbott",
     demo: "https://tgbott-theta.vercel.app/",
+  },
+  {
+    name: "Oku.kg 📖",
+    src: okukg,
+    description:
+      "Discover a world of endless stories with our online bookstore. We offer a vast collection of books across various genres, from bestsellers to timeless classics. Whether you're a fan of thrilling mysteries, heartfelt romances, or thought-provoking non-fiction, we have something for every reader. With a user-friendly interface and fast, reliable delivery, your next great read is just a click away. Explore new titles, find hidden gems, and let us bring the joy of reading straight to your doorstep.",
+    tools: ["Django","Python", "Swagger", "TypeScript","SASS","JSON","Next.js","Redux-Toolkit-Query","Rest-Api"],
+    code: "https://github.com/shaiyldaevich",
+    demo: "https://",
   },
   {
     name: "Barbershop ",
