@@ -3,7 +3,7 @@ import scss from "./experiens.module.scss";
 
 const Experiens = () => {
   return (
-    <section className={scss.experiens}>
+    <section id="experiens" className={scss.experiens}>
       <div className="container">
         <div className={scss.content}>
           <h2 className={scss.heading}>Some of my experiences</h2>

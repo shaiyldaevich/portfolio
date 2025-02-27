@@ -20,6 +20,10 @@ const scrollLinks = [
     name: "Contact",
     link: "contact",
   },
+  {
+    name: "Experience",
+    link: "experiens",
+  },
 ];
 const Header = () => {
   const [isMobile, setIsMobile] = useState(false);

@@ -24,6 +24,10 @@ export const useHeaderStore = create<HeaderStore>((set) => ({
       name: "Contact",
       href: "contact",
     },
+    {
+      name: "Experience",
+      href: "experiens",
+    },
   ],
 
   isOpenBurgerMenu: false,
