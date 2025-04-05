@@ -8,6 +8,7 @@ import todo from "@/assets/todo.png";
 import spotify from "@/assets/spotify.png";
 import barber from "@/assets/bareber.png";
 import okukg from "@/assets/okukg.png";
+import Etno from "@/assets/Screenshot from 2025-04-05 13-23-29.png";
 import { FaGithub, FaSquareArrowUpRight } from "react-icons/fa6";
 
 const projects = [
@@ -34,9 +35,39 @@ const projects = [
     src: okukg,
     description:
       "Discover a world of endless stories with our online bookstore. We offer a vast collection of books across various genres, from bestsellers to timeless classics. Whether you're a fan of thrilling mysteries, heartfelt romances, or thought-provoking non-fiction, we have something for every reader. With a user-friendly interface and fast, reliable delivery, your next great read is just a click away. Explore new titles, find hidden gems, and let us bring the joy of reading straight to your doorstep.",
-    tools: ["Django","Python", "Swagger", "TypeScript","SASS","JSON","Next.js","Redux-Toolkit-Query","Rest-Api"],
+    tools: [
+      "Django",
+      "Python",
+      "Swagger",
+      "TypeScript",
+      "SASS",
+      "JSON",
+      "Next.js",
+      "Redux-Toolkit-Query",
+      "Rest-Api",
+    ],
     code: "https://github.com/shaiyldaevich",
     demo: "https://",
+  },
+  {
+    name: "Etnobaza",
+    src: Etno,
+    description:
+      "Ethnobaza is the largest casting platform for talents. Find actors, models, and performers for your projects!",
+    tools: [
+      "Fastify",
+      "Swagger",
+      "TypeScript",
+      "JSON",
+      "Next.js",
+      "Redux-Toolkit-Query",
+      "Rest-Api",
+      "Tailwind",
+      "Shadcn.ui",
+      "Zustand",
+    ],
+    code: "https://github.com/shaiyldaevich",
+    demo: "https://etnobaza.vercel.app/",
   },
   {
     name: "Barbershop ",
