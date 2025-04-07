@@ -21,6 +21,20 @@ export default function RootLayout({
       <body className={inter.className}>
         <Layout>{children}</Layout>
       </body>
+      <script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=G-YWGF0KWEGD"
+      ></script>
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-YWGF0KWEGD');
+            `,
+        }}
+      />
     </html>
   );
 }
