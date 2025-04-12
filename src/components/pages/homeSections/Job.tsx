@@ -67,7 +67,7 @@ const projects = [
       "Zustand",
     ],
     code: "https://github.com/shaiyldaevich",
-    demo: "https://etnobaza.vercel.app/",
+    demo: "https://etnobaza.kg/",
   },
   {
     name: "Barbershop ",
