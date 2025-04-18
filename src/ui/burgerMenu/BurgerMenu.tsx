@@ -46,8 +46,15 @@ const BurgerMenu = () => {
               ))}
             </ul>
           </nav>
-          <button>Resume</button>
         </div>
+        <a
+          className={scss.button}
+          target="_blank"
+          rel="noopener noreferror"
+          href="/Resume2.0.pdf"
+        >
+          Resume
+        </a>
       </div>
     </>
   );
