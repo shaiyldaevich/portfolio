@@ -9,6 +9,7 @@ import spotify from "@/assets/spotify.png";
 import barber from "@/assets/bareber.png";
 import okukg from "@/assets/okukg.png";
 import Etno from "@/assets/Screenshot from 2025-04-05 13-23-29.png";
+import snake from "@/assets/snake.png";
 import { FaGithub, FaSquareArrowUpRight } from "react-icons/fa6";
 
 const projects = [
@@ -104,6 +105,14 @@ const projects = [
     tools: ["Next.js", "TypeScript", "SASS", "Spotify API", "Zustand"],
     code: "https://github.com/shaiyldaevich/SMKFY_555",
     demo: "https://smkfy-555.vercel.app/",
+  },
+  {
+    name: "Snake game",
+    src: snake,
+    description: "Snake game with Javascript",
+    tools: ["Javascript ", "HTML"],
+    code: "https://github.com/shaiyldaevich/snake-game",
+    demo: "https://snake-game-beta-bice.vercel.app/",
   },
 ];
 
