@@ -13,6 +13,56 @@ import git from "@/assets/techIcons/git-original.svg";
 import github from "@/assets/techIcons/github-original.svg";
 import Image from "next/image";
 
+// const TechIcons = [
+//   {
+//     src: css,
+//     title: "CSS",
+//   },
+//   {
+//     src: html,
+//     title: "HTML",
+//   },
+//   {
+//     src: "https://techstack-generator.vercel.app/ts-icon.svg",
+//     title: "TypeScript",
+//   },
+//   {
+//     src: "https://techstack-generator.vercel.app/js-icon.svg",
+//     title: "JavaScript",
+//   },
+//   {
+//     src: sass,
+//     title: "SASS",
+//   },
+//   {
+//     src: "https://techstack-generator.vercel.app/react-icon.svg",
+//     title: "React",
+//   },
+//   {
+//     src: node,
+//     title: "Node.js",
+//   },
+//   {
+//     src: vite,
+//     title: "Vite",
+//   },
+//   {
+//     src: next,
+//     title: "Next.js",
+//   },
+//   {
+//     src: "https://techstack-generator.vercel.app/redux-icon.svg",
+//     title: "Redux",
+//   },
+//   {
+//     src: git,
+//     title: "Git",
+//   },
+//   {
+//     src: github,
+//     title: "GitHub",
+//   },
+// ];
 const TechIcons = [
   {
     src: css,
@@ -62,7 +112,24 @@ const TechIcons = [
     src: github,
     title: "GitHub",
   },
+  {
+    src: "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg",
+    title: "Tailwind CSS",
+  },
+  {
+    src: "https://www.vectorlogo.zone/logos/supabase/supabase-icon.svg",
+    title: "Supabase",
+  },
+  {
+    src: "https://www.vectorlogo.zone/logos/fastifyio/fastifyio-icon.svg",
+    title: "Fastify",
+  },
+  {
+    src: "https://www.svgrepo.com/show/374002/prisma.svg",
+    title: "Prisma",
+  },
 ];
+
 const Welcome = () => {
   return (
     <section id="home" className={scss.Welcome}>
